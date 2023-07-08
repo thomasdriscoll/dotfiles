@@ -7,4 +7,4 @@ alias vim=nvim
 export LESS='-R --use-color -Dd+r$Du+b$'
 export PS1="${HOST} %d %% "
 source /usr/share/nvm/init-nvm.sh
-alias sys-git='/usr/bin/git --git-dir=/home/thomas/.cfg/ --work-tree=/home/thomas'
+alias sys-git='/usr/bin/git --git-dir=/home/$(whoami)/.cfg/ --work-tree=/home/$(whoami)'
